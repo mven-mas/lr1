@@ -1,0 +1,21 @@
+<title>Сайт знакомств</title>
+<form action="action_form.php">
+<fieldset>
+  <legend>Личная информация</legend>
+  <label>Фамилия:<br/><input type="name" name="Фамилия" required pattern="[А-ЯЁ][а-яё]+"/></lable></br>
+  <label>Имя:<br/><input type="text" name="name" required pattern="[А-ЯЁ][а-яё]+[\-\s]?){3,}"/></lable></br>
+  <label>Отчество:<br/><input type="text" name="Отчество"required pattern="[А-ЯЁ][а-яё]+[\-\s]?){3,}"/></lable></br> 
+  <label>Дата регистрации:<br/><input type="data" name="data"required pattern="\d\d/\d\d/\d{4}"/></lable></br>
+
+  <label>Телефон +7(8)xxx-xxx-xx-xx:<br/><input type="tel" name="tel"
+ required pattern="^((\+?7|8)[ \-] ?)?((\(\d{3}\))|(\d{3}))?([ \-])?(\d{3}[\- ]?\d{2}[\- ]?\d{2})$"/></lable></br>
+    
+  <label>Требования к партнеру:<br/><input type="text" name="требования к партнеру" required pattern="[А-ЯЁ][а-яё]+[\-\s]?){3,}"/></lable></br>
+  <label>О себе:<br/><input type="text" name="о себе" required pattern="[А-ЯЁ][а-яё]+[\-\s]?){3,}"/></lable></br>
+   
+   <p><input type="submit" value="Отправить"></p>
+   <p><input type="reset" value="Очистить"></p>
+ </fieldset>
+ </from>
+ 
+
